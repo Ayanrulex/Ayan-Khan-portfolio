@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ayan Khan | Portfolio</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;line-height:1.6;color:#172033;background:#f6f8fb}
+nav{position:sticky;top:0;background:#fff;border-bottom:1px solid #e8ebf0;padding:16px 7%;display:flex;justify-content:space-between;align-items:center;z-index:5}
+.logo{font-size:21px;font-weight:700;color:#1677d2}
+nav a{color:#4b5563;text-decoration:none;margin-left:22px;font-size:14px}
+.hero{padding:100px 7% 80px;background:linear-gradient(135deg,#eef7ff,#fff)}
+.hero p{color:#64748b;max-width:650px;margin:18px 0}
+h1{font-size:clamp(42px,7vw,72px);line-height:1.05}
+h1 span{color:#1677d2}
+.btn{display:inline-block;margin-top:12px;padding:12px 20px;border-radius:8px;background:#1677d2;color:white;text-decoration:none;font-weight:600}
+section{padding:70px 7%;max-width:1100px;margin:auto}
+h2{font-size:30px;margin-bottom:28px}
+.card{background:white;border:1px solid #e7ebf0;border-radius:14px;padding:25px;box-shadow:0 6px 24px rgba(15,23,42,.05);margin-bottom:18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.tag{display:inline-block;background:#edf6ff;color:#1267b1;padding:8px 12px;border-radius:20px;margin:5px;font-size:14px}
+.muted{color:#64748b}
+footer{text-align:center;padding:35px;background:#172033;color:#cbd5e1}
+a{color:#1677d2}
+@media(max-width:600px){nav div:last-child{display:none}.hero{padding-top:70px}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">Ayan Khan</div>
+  <div><a href="#about">About</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#contact">Contact</a></div>
+</nav>
+
+<header class="hero">
+  <h1>Hi, I'm <span>Ayan Khan</span>.</h1>
+  <p>Computer Science & Engineering student with customer-support experience and an interest in technology, communication and problem solving.</p>
+  <a class="btn" href="#contact">Get in touch</a>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>I am a B.Tech Computer Science & Engineering student at Jamia Hamdard University, New Delhi. I bring experience in blended customer support along with strong spoken English, client relationship management and a professional approach to customer interactions.</p>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="card">
+    <h3>Advisor I, Blended Support</h3>
+    <p><strong>Concentrix Technologies India Private Limited</strong></p>
+    <p class="muted">Gurugram, Haryana · 03 Sep 2025 – 25 Oct 2025</p>
+    <p style="margin-top:12px">Worked in a blended support role, handling customer interactions and support responsibilities in a fast-paced BPO environment.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <div class="card">
+    <span class="tag">Client Relationship Management (CRM)</span>
+    <span class="tag">English Proficiency (Spoken)</span>
+    <span class="tag">Human Resources</span>
+    <span class="tag">Customer Support</span>
+    <span class="tag">Communication</span>
+    <span class="tag">Problem Solving</span>
+  </div>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="grid">
+    <div class="card"><h3>B.Tech, Computer Science & Engineering</h3><p class="muted">Jamia Hamdard University, New Delhi</p><p>2022 – 2026</p></div>
+    <div class="card"><h3>Senior Secondary (XII), CBSE</h3><p class="muted">Hamdard Public School, South Delhi</p><p>2022 · 65%</p></div>
+    <div class="card"><h3>Secondary (X), CBSE</h3><p class="muted">Hamdard Public School, South Delhi</p><p>2020 · 74%</p></div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <p><strong>Email:</strong> <a href="mailto:ayanrulex@gmail.com">ayanrulex@gmail.com</a></p>
+    <p><strong>Phone:</strong> +91 9315984495</p>
+    <p><strong>Location:</strong> Delhi, India</p>
+  </div>
+</section>
+
+<footer>© 2026 Ayan Khan · Portfolio</footer>
+</body>
+</html>
